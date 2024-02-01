@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atividades</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+  
+    <script>
+      let carSpeed = prompt("Please insert how fast your car is going")
+
+      if (carSpeed > 80) {
+        let fine = 0
+        let excess = carSpeed - 80
+        for (let i = 0; i < excess; i++) {
+          fine += 20;
+        } 
+        alert("You have been fined R$" + fine)
+      }
+    </script>
+  </body>
+</html>
